@@ -1,2 +1,4 @@
-FROM ubuntu
-RUN ["bash", "-c", "mkdir /app && echo a > /app/txt"]
+FROM ubuntu:18.04
+
+RUN mkdir -p /app
+CMD echo "Hello!" > /app/file.txt
