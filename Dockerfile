@@ -1,2 +1,2 @@
 FROM ubuntu
-RUN ["bash", "-c", "mkdir /app &amp;&amp; echo a &gt; /app/txt"]
+RUN ["bash", "-c", "mkdir /app && echo a > /app/txt"]
